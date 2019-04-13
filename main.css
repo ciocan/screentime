@@ -1,0 +1,89 @@
+body {
+  font-family: "Roboto", sans-serif;
+  display: grid;
+  place-items: center;
+  color: grey;
+}
+
+main {
+  max-width: 38rem;
+  padding: 2rem;
+  margin: auto;
+  text-align: center;
+}
+
+h1,
+h2 {
+  margin: 4px;
+}
+
+h1 {
+  text-transform: uppercase;
+  color: #161616;
+}
+
+h2 {
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+
+section {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1.5fr 0.5fr;
+  grid-template-areas: "run run run" "e1 e2 e3";
+  column-gap: 20px;
+  row-gap: 20px;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+img {
+  width: 100%;
+}
+
+.run {
+  grid-area: run;
+  width: 100%;
+}
+
+.e1 {
+  grid-area: e1;
+}
+
+.e2 {
+  grid-area: e2;
+}
+
+.e3 {
+  grid-area: e3;
+}
+
+p {
+}
+
+span.reception {
+  display: block;
+  padding: 8px;
+}
+
+p.description {
+  line-height: 20px;
+  text-align: justify;
+}
+
+a,
+a:visited {
+  color: #000;
+}
+
+tito-widget button.tito-submit {
+  background: #000 !important;
+  border: none !important;
+}
+
+tito-widget button.tito-submit:hover {
+  background: grey !important;
+}

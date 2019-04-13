@@ -1,0 +1,12 @@
+{
+  "name": "screentime",
+  "version": "1.0.0",
+  "main": "index.html",
+  "license": "MIT",
+  "scripts": {
+    "dev": "parcel index.html"
+  },
+  "devDependencies": {
+    "cssnano": "^4.1.10"
+  }
+}
