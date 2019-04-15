@@ -6,8 +6,8 @@ body {
 }
 
 main {
-  max-width: 38rem;
-  padding: 2rem;
+  max-width: 70ch;
+  padding: 2ch;
   margin: auto;
   text-align: center;
 }
@@ -26,6 +26,7 @@ h2 {
   font-size: 16px;
   font-weight: 400;
   margin-top: 20px;
+  line-height: 24px;
 }
 
 section {
@@ -70,8 +71,12 @@ span.reception {
 }
 
 p.description {
-  line-height: 20px;
+  line-height: 24px;
   text-align: justify;
+}
+
+p.footer {
+  font-size: 14px;
 }
 
 a,
