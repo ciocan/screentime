@@ -1,5 +1,6 @@
 {
   "name": "screentime",
   "version": 2,
-  "alias": ["screentime.gallery", "www.screentime.gallery"]
+  "alias": ["screentime.gallery", "www.screentime.gallery"],
+  "builds": [{ "src": "package.json", "use": "@now/static-build" }]
 }
