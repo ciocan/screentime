@@ -2,4 +2,4 @@
 
 ###### Photography
 
-[screentime.gallaey](https://screentime.gallaey/)
+[screentime.gallery](https://screentime.gallery/)
