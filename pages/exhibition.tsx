@@ -3,11 +3,12 @@ import { Text, Link } from "rebass"
 import ImageGallery from "react-image-gallery"
 import "react-image-gallery/styles/css/image-gallery.css"
 
+const IMAGE_ALT = "https://screentime.gallery"
 const makeImg = (i: number) => ({
   original: `static/exhibition/reception${i}.jpg`,
-  originalAlt: "Camden Image Gallery Exhibition",
-  thumbnail: `static/exhibition/reception${i}.jpg`,
-  thumbnailAlt: "Camden Image Gallery Exhibition"
+  originalAlt: IMAGE_ALT,
+  thumbnail: `static/exhibition/reception${i}_tn.jpg`,
+  thumbnailAlt: IMAGE_ALT
 })
 
 const images = Array.from(Array(6).keys()).map(i => makeImg(i + 1))
@@ -34,6 +35,7 @@ export default () => (
       </Link>
       {` `} in London between 30th April and 5th May 2019
     </Text>
+
     <ImageGallery
       lazyLoad
       showPlayButton={false}
