@@ -77,7 +77,13 @@ const A = styled.a<any>`
   text-decoration: none;
   padding: 5px 10px;
   letter-spacing: 1px;
+  border: 1px solid white;
   font-weight: ${({ extra }) => (get(extra, "isHome") ? "bold" : "normal")};
   background: ${({ isSelected }) => (isSelected ? "black" : "white")};
   color: ${({ isSelected }) => (isSelected ? "white" : "black")};
+
+  &:hover {
+    cursor: pointer;
+    border: 1px solid black;
+  }
 `

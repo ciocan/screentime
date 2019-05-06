@@ -1,13 +1,12 @@
 import { Layout } from "~components/Layout"
 import { Text, Link } from "rebass"
 import ImageGallery from "react-image-gallery"
-import "react-image-gallery/styles/css/image-gallery.css"
 
 const IMAGE_ALT = "https://screentime.gallery"
 const makeImg = (i: number) => ({
-  original: `static/exhibition/reception${i}.jpg`,
+  original: `/static/exhibition/reception${i}.jpg`,
   originalAlt: IMAGE_ALT,
-  thumbnail: `static/exhibition/reception${i}_tn.jpg`,
+  thumbnail: `/static/exhibition/reception${i}_tn.jpg`,
   thumbnailAlt: IMAGE_ALT
 })
 

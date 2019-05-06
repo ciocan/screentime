@@ -37,6 +37,11 @@ class MyDocument extends Document {
     return (
       <html lang="en">
         <Head>
+          <link
+            rel="stylesheet"
+            type="text/css"
+            href="/static/css/gallery.css"
+          />
           <style>{`
             body {
               background-color: #fff;
